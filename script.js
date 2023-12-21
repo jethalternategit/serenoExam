@@ -42,7 +42,8 @@ window.addEventListener('scroll', function() {
   } else {
     // user has scrolled down;
     mynavbar.style.position = "absolute";
-  
+      myburger.style.top = "55%";
+    mycheckbox.style.top = "55%";
    
     mysearchbar.style.top ="0em";
    
