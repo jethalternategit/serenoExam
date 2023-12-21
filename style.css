@@ -171,7 +171,7 @@ h1,h2,h3,h4{
   
 
   input[type="checkbox"]:checked ~ .menu-items {
-    transform:translateX(-40%) translateY(-20%);
+    transform:translateX(-30%) translateY(-20%);
     z-index: 200;
     
   }
