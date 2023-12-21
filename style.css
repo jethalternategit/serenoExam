@@ -1230,7 +1230,12 @@ button:hover span:last-child {
 @media (orientation: portrait) {
 
 
-
+  input[type="checkbox"]:checked ~ .menu-items {
+    transform:translateX(-40%) translateY(-20%);
+    z-index: 200;
+    
+  }
+    
   #booking section{ 
     
     grid-template-columns: 1fr ;
