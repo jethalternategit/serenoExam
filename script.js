@@ -8,12 +8,6 @@ const myheader = document.getElementById("headerDesign");
 
 const mycheckbox = document.querySelector(".checkbox");
 const myburger = document.querySelector(".hamburger-lines");
-
-
-
-
-
-
 const booking = document.getElementById("booking");
 const mysearchbar = document.getElementById("searchBar");
 const mynavbar = document.getElementById("navbar");
@@ -31,9 +25,8 @@ window.addEventListener('scroll', function() {
     myheader.style.marginTop= "0";
     myheader.style.marginBottom = "0";
 
-
-    myburger.style.top = "31%";
-    mycheckbox.style.top = "31%";
+    myburger.style.top = "35%";
+    mycheckbox.style.top = "35%";
 
 
 
@@ -42,8 +35,8 @@ window.addEventListener('scroll', function() {
   } else {
     // user has scrolled down;
     mynavbar.style.position = "absolute";
-      myburger.style.top = "55%";
-    mycheckbox.style.top = "55%";
+    myburger.style.top = "55%";
+  mycheckbox.style.top = "55%";
    
     mysearchbar.style.top ="0em";
    
